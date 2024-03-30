@@ -1,0 +1,17 @@
+# List of mirrors to configure in nginx cache proxy
+
+# Similar to /etc/pacman.d/mirrorlist, but YOU MUST REMOVE ".../$repo/os/$arch"
+# from the end of the URLs
+
+# The first mirror will always be used, the remaining mirrors will act as a
+# backup if the first is not available, in a round-robin fashion
+
+# THIS IS A SAMPLE LIST, YOU SHOULD CHANGE THIS TO YOUR PREFERENCE/REGION/AVAILABILITY
+Server = https://america.mirror.pkgbuild.com
+Server = https://arch.mirror.constant.com
+Server = https://mirrors.lug.mtu.edu/archlinux
+Server = https://us.mirrors.cicku.me/archlinux
+Server = https://mirror.lty.me/archlinux
+Server = https://mirrors.bjg.at/arch
+Server = https://mirror.tmmworkshop.com/archlinux
+Server = https://arch.hu.fo/archlinux
